@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #180161;
+    color: #E2DAD6;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+.weather p {
+    text-shadow: rgba(98, 184, 224, 0.9) 0px 0px 14px;
+}
+
+.weather img {
+    height: 100px;
+    background: none;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    width: 80%;
+    border-radius: 25px;
+}
+
+.display-4 {
+    font-weight: 400;
+}
+.form-control {
+    height: 50px;
+}
+.updates ul{
+    margin-top: 40px;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;  
+}
