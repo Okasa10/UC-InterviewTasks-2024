@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: David Libre;
+
+}
+
+.book-button {
+    width: 167px;
+    height: 54px;
+    background-color: #EA7727;
+    color: rgb(245, 238, 222);
+    border-radius: 20px 5px;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-button {
+    width: 120px;
+    height: 54px;
+    background-color: #101A24;
+    color: white;
+    border-radius: 20px 5px;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.light-text {
+    font-size: 16px;
+    font-family: Inter;
+    color: #5C6574;
+    background: none;
+}
+
+/* WORKING HOURS */
+.hours {
+    flex-direction: column;
+}
+
+.hours span {
+    width: 130px
+}
+
+.blur {
+    opacity: 15%;
+}
